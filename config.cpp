@@ -65,7 +65,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 4375;
+					hitpoints = 500;
 					healthLevels[] = { {1,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.7,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.5,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0.3,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0,{"DZ\characters\headgear\data\HelmetMich_destruct.rvmat"}} };
 				};
 			};
@@ -171,7 +171,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 3775;
+					hitpoints = 500;
 					healthLevels[] = { {1,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.7,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.5,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0.3,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0,{"DZ\characters\headgear\data\HelmetMich_destruct.rvmat"}} };
 				};
 			};
