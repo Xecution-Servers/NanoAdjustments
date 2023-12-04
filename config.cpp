@@ -41,7 +41,6 @@ class CfgVehicles
 		visibilityModifier = 0.75;
 		displayName = "Top of the Nanosuit";
 		descriptionShort = "Oh god... that's a god of war body";
-		model = "\NanoOblek\oblek\Top\TLS_Nano2_TOP_g.p3d";
 		inventorySlot[] = { "Vest" };
 		itemInfo[] = { "Clothing","Vest" };
 		weight = 2100;
@@ -52,8 +51,6 @@ class CfgVehicles
 		heatIsolation = 0.8;
 		repairableWithKits[] = { 5,2 };
 		repairCosts[] = { 30,25 };
-		soundAttType = "ChemlonDress";
-		hiddenSelections[] = { "TLS" };
 		class Protection
 		{
 			biological = 1;
@@ -66,7 +63,6 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints = 500;
-					healthLevels[] = { {1,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.7,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.5,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0.3,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0,{"DZ\characters\headgear\data\HelmetMich_destruct.rvmat"}} };
 				};
 			};
 			class GlobalArmor
@@ -75,7 +71,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -83,14 +79,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -98,14 +94,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -113,14 +109,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -128,7 +124,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 			};
@@ -137,7 +133,6 @@ class CfgVehicles
 	class TLS_Nano2_Helm_Base : Mich2001Helmet
 	{
 		scope = 0;
-		model = "\NanoOblek\oblek\Helm\TLS_Nano2_Helm_g.p3d";
 		repairableWithKits[] = { 8 };
 		repairCosts[] = { 25 };
 		inventorySlot[] = { "Headgear" };
@@ -172,7 +167,6 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints = 500;
-					healthLevels[] = { {1,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.7,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.5,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0.3,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0,{"DZ\characters\headgear\data\HelmetMich_destruct.rvmat"}} };
 				};
 			};
 			class GlobalArmor
@@ -181,7 +175,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -189,14 +183,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.03;
+						damage = 0;
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -204,14 +198,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -219,14 +213,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.10;
+						damage = 0.11;
 					};
 					class Blood
 					{
@@ -234,7 +228,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.10;
+						damage = 0;
 					};
 				};
 			};
