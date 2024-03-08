@@ -73,7 +73,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 500; //Default is 3775
+					hitpoints = 700; //Default is 3775
 				};
 			};
 			class GlobalArmor
@@ -82,7 +82,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -90,14 +90,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -105,14 +105,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -120,14 +120,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -135,7 +135,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 			};
@@ -168,7 +168,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 500; //Default is 4375
+					hitpoints = 700; //Default is 4375
 				};
 			};
 			class GlobalArmor
@@ -177,7 +177,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -185,14 +185,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -200,14 +200,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -215,14 +215,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -230,7 +230,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 			};
@@ -242,7 +242,6 @@ class CfgVehicles
 		visibilityModifier = 0.8;
 		displayName = "Nanosuit Gloves";
 		descriptionShort = "Oh, such soft hands";
-		model = "\NanoOblek\oblek\Gloves\TLS_Nano2_Gloves_g.p3d";
 		inventorySlot[] = { "Gloves" };
 		simulation = "clothing";
 		itemInfo[] = { "Clothing","Gloves" };
@@ -253,11 +252,6 @@ class CfgVehicles
 		heatIsolation = 0.8;
 		repairableWithKits[] = { 5,2 };
 		repairCosts[] = { 30,25 };
-		class ClothingTypes
-		{
-			male = "\NanoOblek\oblek\Gloves\TLS_Nano2_Gloves_m.p3d";
-			female = "\NanoOblek\oblek\Gloves\TLS_Nano2_Gloves_f.p3d";
-		};
 		hiddenSelections[] = { "TLS" };
 		class Protection
 		{
@@ -270,8 +264,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 500; //Default is 1580
-					healthLevels[] = { {1,{"DZ\Characters\gloves\data\OMNOGloves.rvmat"}},{0.7,{"DZ\Characters\gloves\data\OMNOGloves.rvmat"}},{0.5,{"DZ\Characters\gloves\data\OMNOGloves_damage.rvmat"}},{0.3,{"DZ\Characters\gloves\data\OMNOGloves_damage.rvmat"}},{0,{"DZ\Characters\gloves\data\OMNOGloves_destruct.rvmat"}} };
+					hitpoints = 700; //Default is 1580
 				};
 			};
 			class GlobalArmor
@@ -280,7 +273,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -288,14 +281,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -303,14 +296,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -318,14 +311,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -333,7 +326,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 			};
@@ -345,7 +338,6 @@ class CfgVehicles
 		visibilityModifier = 0.75;
 		displayName = "The bottom of the nanosuit";
 		descriptionShort = "Finally, someone exercises their legs.";
-		model = "\NanoOblek\oblek\Leg\TLS_Nano2_LEG_g.p3d";
 		ContinuouActions[] = { "AT_WRING_CLOTHES" };
 		inventorySlot[] = { "Legs" };
 		simulation = "clothing";
@@ -365,19 +357,13 @@ class CfgVehicles
 			biological = 1;
 			chemical = 1;
 		};
-		class ClothingTypes
-		{
-			male = "\NanoOblek\oblek\Leg\TLS_Nano2_LEG_m.p3d";
-			female = "\NanoOblek\oblek\Leg\TLS_Nano2_LEG_f.p3d";
-		};
 		class DamageSystem
 		{
 			class GlobalHealth
 			{
 				class Health
 				{
-					hitpoints = 500; //Default is 3775
-					healthLevels[] = { {1,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.7,{"DZ\characters\headgear\data\HelmetMich.rvmat"}},{0.5,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0.3,{"DZ\characters\headgear\data\HelmetMich_damage.rvmat"}},{0,{"DZ\characters\headgear\data\HelmetMich_destruct.rvmat"}} };
+					hitpoints = 700; //Default is 3775
 				};
 			};
 			class GlobalArmor
@@ -386,7 +372,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -394,14 +380,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -409,14 +395,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -424,14 +410,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -439,7 +425,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 			};
@@ -451,7 +437,6 @@ class CfgVehicles
 		visibilityModifier = 0.8;
 		displayName = "Nanosuit boots";
 		descriptionShort = "What are those, they are my crocs";
-		model = "\NanoOblek\oblek\Boots\TLS_Nano2_Boots_g.p3d";
 		inventorySlot[] = { "Feet" };
 		itemInfo[] = { "Clothing","Feet" };
 		itemSize[] = { 4,4 };
@@ -463,11 +448,6 @@ class CfgVehicles
 		repairCosts[] = { 25 };
 		soundAttType = "Boots";
 		hiddenSelections[] = { "TLS" };
-		class ClothingTypes
-		{
-			male = "\NanoOblek\oblek\Boots\TLS_Nano2_Boots_m.p3d";
-			female = "\NanoOblek\oblek\Boots\TLS_Nano2_Boots_f.p3d";
-		};
 		class Protection
 		{
 			biological = 1;
@@ -479,8 +459,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints = 500; //Default is 1840
-					healthLevels[] = { {1,{"DZ\characters\shoes\Data\hikingBoots.rvmat"}},{0.7,{"DZ\characters\shoes\Data\hikingBoots.rvmat"}},{0.5,{"DZ\characters\shoes\Data\hikingBoots_damage.rvmat"}},{0.3,{"DZ\characters\shoes\Data\hikingBoots_damage.rvmat"}},{0,{"DZ\characters\shoes\Data\hikingBoots_destruct.rvmat"}} };
+					hitpoints = 700; //Default is 1840
 				};
 			};
 			class GlobalArmor
@@ -489,7 +468,7 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -497,14 +476,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Melee
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -512,14 +491,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -527,14 +506,14 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 				class FragGrenade
 				{
 					class Health
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 					class Blood
 					{
@@ -542,7 +521,7 @@ class CfgVehicles
 					};
 					class Shock
 					{
-						damage = 0.11; //Default is 0.03
+						damage = 0.07; //Default is 0.03
 					};
 				};
 			};
